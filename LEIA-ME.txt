@@ -1,0 +1,11 @@
+PROJETO DE UBERIZAÇÃO — COMO USAR
+
+1. Extraia este ZIP.
+2. Abra index.html no navegador para testar o site.
+3. Envie os arquivos index.html, uberizacao.html, wendel.html, ryan.html e style.css para a raiz do repositório do GitHub.
+4. As páginas de entrevista têm espaços para inserir as fotos autorizadas e as respostas reais. Elas não foram inventadas.
+5. Publique em Settings > Pages > Deploy from a branch > main > /(root).
+6. Depois de publicar, use o endereço público para gerar o QR Code.
+
+Integrantes:
+Luis Onilton, Lucas Aguiar, Jordan Lake, Ryan Vitoriano, Ana Beatriz
