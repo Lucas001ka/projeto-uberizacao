@@ -24,3 +24,16 @@ footer{border-top:1px solid #3a171b;padding:22px 7%;color:var(--muted);font-size
 .small{font-size:.9rem;color:var(--muted)}
 ul{padding-left:22px}
 @media(max-width:600px){header{padding:16px 5%}main{padding:34px 18px}}
+
+/* Entrevistas */
+.interview-layout{display:grid;grid-template-columns:minmax(220px, .8fr) minmax(0,1.5fr);gap:22px;align-items:start;margin:28px 0}
+.portrait{margin:0;position:sticky;top:18px;background:#151515;border:1px solid #342024;border-radius:14px;padding:12px}
+.portrait img{display:block;width:100%;max-height:640px;object-fit:cover;object-position:center;border-radius:9px;filter:grayscale(100%)}
+.portrait figcaption{font-size:.82rem;color:#bdbdbd;padding:9px 3px 1px}
+.answers{display:grid;gap:12px}
+.answers>h2{margin:0 0 4px}
+.qa{background:#151515;border:1px solid #342024;border-left:3px solid var(--red);border-radius:10px;padding:16px 18px}
+.qa h3{font-size:1rem;margin:0 0 10px;line-height:1.45}
+.qa p{margin:0;line-height:1.65}
+.page-nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:28px}
+@media(max-width:700px){.interview-layout{grid-template-columns:1fr}.portrait{position:static;max-width:420px;margin:0 auto;width:100%}}
